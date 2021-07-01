@@ -77,15 +77,15 @@ To Quick start in VS Code Terminal:
 > npm start
 
 ### Backend: Json.server installed locally
-> npm i json-server
+> npm i json-server <br>
 > npm run server
 
-In Package.json file:
-Add a Server in Scripts:
-"Scripts": {
-"server": "json-server --watch db.json --port 5000"
+-In Package.json file:
+Add a Server in Scripts: <br>
+"Scripts": {<br>
+"server": "json-server --watch db.json --port 5000" } <br>
 
-Installing React Router DOM:
+-Installing React Router DOM:
 > npm i react-router-dom
 
 
