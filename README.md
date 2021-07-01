@@ -1,70 +1,124 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <!-- <a href="https://github.com/jaspreet-singh-sahota/Slack-bot">
+    <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5726/s300/icon-white-on-murple-copy.png" alt="Logo" width="80" height="80">
+  </a> -->
 
-In the project directory, you can run:
+  <h1 align="center"> React Task Tracker </h1>
+  <p align="center">
+  
+  <img width="61" alt="react" src="https://github.com/Sangi19/react-task-tracker/blob/main/React.png"> &emsp;
+  <img width="61" alt="JSON Server" src="https://github.com/Sangi19/react-task-tracker/blob/main/bw-json-data-store.png"> &emsp;
+   </p>
 
-### `npm start`
+  <p align="center">
+    This is a TO-DO List app which is named as "React Task Tracker". JSON Server helps in a way to save and serve the Data for this app. We always forget things that misses many opportunities. Here i have a Task tracker project which helps us to track all our planned Tasks where we will finish them on time. <br />
+    </p>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- TABLE OF CONTENTS -->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [About the Project](#about-the-project)
+- [Technical Components](#techincal-components)
+- [Built With](#built-with)
+- [Installation](#Installation)
+- [Contact](#Authors)
+- [How it works](#How-it-works)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- ABOUT THE PROJECT -->
 
-### `npm run build`
+## About The Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Here we have a JavaScript React Project which is named as "React Task Tracker" built with ReactJS as front-end and JSON server as a Back-end.
+<br />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technical Components
+This is a TO-DO List app which is named as "React Task Tracker". JSON Server helps in a way to save and serve the Data for this app. We always forget things that misses many opportunities. Here i have a Task tracker project which helps us to track all our planned Tasks where we will finish them on time.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### React - Load the Tasks at real-time. Instead of refreshing the whole page, particular components/tasks will be altered.
 
-### `npm run eject`
+### JSON Server - handles the background job to store and retrieve the Tasks with Date and Time.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Build Version
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+No Login Required.
+The app is not deployed yet but working fine locally and I am attaching the Captures of them.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![TaskTracker- Basic capture:](https://github.com/Sangi19/react-task-tracker/blob/main/Capture-%20Basic%20pic.PNG)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<!-- BUILD WITH -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Built With
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project was built using these technologies.
 
-### Code Splitting
+- JavaScript with React
+- JSON Server
+- Visual Studio code editor 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Installation of Node JS and npm Setup:
+- download the Nodejs from the following link (https://nodejs.org/en/)
 
-### Analyzing the Bundle Size
+To download the latest version of npm, in the Visual Studio Code Terminal, run the following command:
+> npm install -g npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Clone the repository and follow the steps to run in the Visual Studio code editor:
 
-### Making a Progressive Web App
+### Create React App offers a modern build setup with no configuration.
+To Quick start in VS Code Terminal:
+> npx create-react-app my-app <br>
+> cd my-app<br>
+> npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Backend: Json.server installed locally
+> npm i json-server <br>
+> npm run server
 
-### Advanced Configuration
+-In Package.json file:
+Add a Server in Scripts: <br>
+"Scripts": {<br>
+"server": "json-server --watch db.json --port 5000" } <br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+-Run the below to install the React icons that i have used in the Task.js file:
+>npm i react-icons
 
-### Deployment
+-Installing React Router DOM:
+> npm i react-router-dom
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+<!-- HOW IT WORKS -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## How It Works
+ Task Tracker - Add Task:
+![Task Tracker - Add Task](https://github.com/Sangi19/react-task-tracker/blob/main/Add%20Task%20capture.PNG)
+
+Task Tracker with footer:
+![Task Tracker with footer:](https://github.com/Sangi19/react-task-tracker/blob/main/Final%20one%20with%20Footer.PNG)
+
+
+## Built by
+
+👤 **Sangeetha Ramkumar**
+
+- [LinkedIn](https://www.linkedin.com/in/sangeetharamkumar)
+- [GitHub](https://github.com/Sangi19)
+- [E-mail](sangiammu1020@gmail.com)
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+
