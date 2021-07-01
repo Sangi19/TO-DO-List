@@ -85,6 +85,9 @@ Add a Server in Scripts: <br>
 "Scripts": {<br>
 "server": "json-server --watch db.json --port 5000" } <br>
 
+-Run the below to install the React icons that i have used in the Task.js file:
+>npm i react-icons
+
 -Installing React Router DOM:
 > npm i react-router-dom
 
