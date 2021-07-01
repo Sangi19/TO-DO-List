@@ -10,8 +10,8 @@
   <h1 align="center"> React Task Tracker </h1>
   <p align="center">
   
-  <img width="61" alt="react" src="https://github.com/Sangi19/react-task-tracker/blob/main/React.png"> &emsp;
-  <img width="61" alt="JSON Server" src="https://github.com/Sangi19/react-task-tracker/blob/main/bw-json-data-store.png"> &emsp;
+  <img width="61" alt="React" src="https://github.com/Sangi19/TO-DO-List/blob/main/Images/React.png"> &emsp;
+  <img width="61" alt="JSON Server" src="https://github.com/Sangi19/TO-DO-List/blob/main/Images/bw-json-data-store.png"> &emsp;
    </p>
 
   <p align="center">
@@ -44,12 +44,12 @@ This is a TO-DO List app which is named as "React Task Tracker". JSON Server hel
 
 ### JSON Server - handles the background job to store and retrieve the Tasks with Date and Time.
 
-## Build Version
+## Built Version
 
 No Login Required.
 The app is not deployed yet but working fine locally and I am attaching the Captures of them.
 
-![TaskTracker- Basic capture:](https://github.com/Sangi19/react-task-tracker/blob/main/Capture-%20Basic%20pic.PNG)
+![TaskTracker- Basic capture:](https://github.com/Sangi19/TO-DO-List/blob/main/Images/Capture-%20Basic%20pic.PNG)
 
 
 <!-- BUILD WITH -->
@@ -95,11 +95,11 @@ Add a Server in Scripts: <br>
 <!-- HOW IT WORKS -->
 
 ## How It Works
- Task Tracker - Add Task:
-![Task Tracker - Add Task](https://github.com/Sangi19/react-task-tracker/blob/main/Add%20Task%20capture.PNG)
+ Task Tracker - Add Task: <br>
+![Task Tracker - Add Task](https://github.com/Sangi19/TO-DO-List/blob/main/Images/Add%20Task%20capture.PNG)
 
-Task Tracker with footer:
-![Task Tracker with footer:](https://github.com/Sangi19/react-task-tracker/blob/main/Final%20one%20with%20Footer.PNG)
+Task Tracker with footer:<br>
+![Task Tracker with footer:](https://github.com/Sangi19/TO-DO-List/blob/main/Images/Final%20one%20with%20Footer.PNG)
 
 
 ## Built by
